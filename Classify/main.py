@@ -4,7 +4,9 @@ sys.path.append(os.path.dirname(sys.path[0]))
 import json
 from DealData.DataMgrImg import DataMgr
 from DealData.Resulter import Resulter
-from Classify.train_with_img import Train
+# from Classify.train_with_img import Train
+# from Classify.train import Train
+from Classify.train_with_imgM import Train
 
 class Main:
     def __init__(self):

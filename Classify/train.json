@@ -1,5 +1,5 @@
 {
-  "cuda": 3,
+  "cuda": 2,
   "results": {
     "result_root": "../Results",
     "describe": "lr0.01",
@@ -10,11 +10,12 @@
     "save_model_path": "save_model.ckpt"
   },
   "training_para": {
+    "rate": 0.3,
     "hidden_num":1000,
     "input_channels":1,
     "input_dim":49,
     "learning_rate": 0.01,
-    "n_epochs": 50,
+    "n_epochs": 30,
     "n_out": 1,
     "L2_reg": 0.0002
   }
